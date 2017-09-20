@@ -15,10 +15,15 @@ public class App {
         f();
         x=x+1;
         System.out.println("Bye bye "+x);
+        a();
     }
 
 	public static void b() {
             System.out.println("B");
         }
+
+    private static void a() {
+        System.out.println("A");
+    }
 
 }
