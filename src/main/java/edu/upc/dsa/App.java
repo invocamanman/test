@@ -14,5 +14,12 @@ public class App {
         f();
         x=x+1;
         System.out.println("Bye bye "+x);
+        a();
     }
+
+    private static void a() {
+        System.out.println("A");
+    }
+
+
 }
