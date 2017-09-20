@@ -11,8 +11,14 @@ public class App {
 
     public static void main(String[] args) {
         int x = 1;
+        b();
         f();
         x=x+1;
         System.out.println("Bye bye "+x);
     }
+
+	public static void b() {
+            System.out.println("B");
+        }
+
 }
